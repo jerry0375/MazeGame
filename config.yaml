@@ -1,0 +1,27 @@
+# 迷宫尺寸
+width: 7
+height: 7
+
+# 迷宫环境
+gold_count: 9
+trap_count: 3
+boss_count: 1
+gold_value: 50
+trap_penalty: 30
+
+# boss属性和玩家属性
+boss_health: [10,5,3,6] 
+player_skills: [[10,3,9],[5,2,5],[3,1,4]] # [攻击力, 冷却值, 金币消耗]
+
+# 迷宫文件路径
+maze_file: C:\Users\Administrator\Desktop\MazeGame\testData\maze_15_15_3.json # 默认\res\maze_data.json
+
+# 多目标优化权重，c1为回合数权重，c2为金币消耗权重
+c1: 1
+c2: 0
+
+# 使用默认配置
+use_default: false
+
+
+
